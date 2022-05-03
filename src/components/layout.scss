@@ -1,12 +1,12 @@
 //Here you can customize bootstrap
-$primary: #663399;
+$primary: #665399;
 @import "~bootstrap/scss/bootstrap";
 
 
 
 .site {
     display: flex;
-    min-height: 95vh;
+    min-height: calc(100vh - 60px);
     flex-direction: column;
 }
   
