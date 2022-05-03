@@ -4,3 +4,12 @@ $primary: #663399;
 
 
 
+.site {
+    display: flex;
+    min-height: 95vh;
+    flex-direction: column;
+}
+  
+.site-content {
+    flex-grow: 1;
+}

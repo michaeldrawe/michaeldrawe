@@ -17,11 +17,12 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div className="container-fluid p-0">
+    <div className="container-fluid ">
       <Navbar siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <main >
-        <main>{children}</main>
+      <main className="site">
+        <main className="site-content">{children}</main>
       </main>
+      <footer className="footer">Should be at the bottom of the page</footer>
     </div>
   )
 }
