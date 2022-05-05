@@ -22,7 +22,7 @@ const Layout = ({ children }) => {
       <main className="site">
         <main className="site-content">{children}</main>
       </main>
-      <footer className="footer">Should be at the bottom of the page</footer>
+      <footer className="footer" >Copyright 2022 Michael Drawe</footer>
     </div>
   )
 }

@@ -12,7 +12,7 @@ const ExactNavLink = props => (
 
 const Navbar = ({ siteTitle }) => {
   return (
-    <nav className="navbar navbar-expand-md navbar-dark bg-primary">
+    <nav className="navbar navbar-expand-md navbar-light">
       <div className="container-fluid">
         <Link to="/" className="navbar-brand" href="#">{siteTitle}</Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navbar"
@@ -21,7 +21,7 @@ const Navbar = ({ siteTitle }) => {
         </button>
 
         <div className="collapse navbar-collapse" id="main-navbar">
-          <ul className="navbar-nav me-auto mb-2 mb-md-0">
+          <ul className="navbar-nav ms-auto mb-2 mb-md-0">
             <li className="nav-item">
               <ExactNavLink
                 to="/"
@@ -34,6 +34,18 @@ const Navbar = ({ siteTitle }) => {
                 to="/about"
               >
                 About
+              </ExactNavLink>
+            </li><li className="nav-item">
+              <ExactNavLink
+                to="/portfolio"
+              >
+                Portfolio
+              </ExactNavLink>
+            </li><li className="nav-item">
+              <ExactNavLink
+                to="/contact"
+              >
+                Contact
               </ExactNavLink>
             </li>
           </ul>
