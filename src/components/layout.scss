@@ -4,6 +4,7 @@ $secondary: #12312d;
 @import "~bootstrap/scss/bootstrap";
 body {
     font-family: "Architects Daughter", cursive; 
+    overflow-x: hidden;
 }
 $font-size-root:  $font-size-base * 1.25;
 $font-size-base: 4rem;
