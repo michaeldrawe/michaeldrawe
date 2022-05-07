@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
 
   return (
     <div className="container-fluid ">
-      <Navbar siteTitle={data.site.siteMetadata?.title || `Title`} />
+      <Navbar siteTitle={data.site.siteMetadata?.title || `Title`} class="display-1"/>
       <main className="site">
         <main className="site-content">{children}</main>
       </main>

@@ -2,8 +2,12 @@
 $primary: #565399;
 $secondary: #12312d;
 @import "~bootstrap/scss/bootstrap";
-
-
+body {
+    font-family: "Architects Daughter", cursive; 
+}
+$font-size-root:  $font-size-base * 1.25;
+$font-size-base: 4rem;
+$lead-font-size: $font-size-base * 1.25;
 
 .site {
     display: flex;

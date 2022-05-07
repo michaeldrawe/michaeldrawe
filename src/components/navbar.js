@@ -22,26 +22,26 @@ const Navbar = ({ siteTitle }) => {
 
         <div className="collapse navbar-collapse" id="main-navbar">
           <ul className="navbar-nav ms-auto mb-2 mb-md-0">
-            <li className="nav-item">
+            <li className="nav-item text-uppercase">
               <ExactNavLink
                 to="/"
               >
                 Home
               </ExactNavLink>
             </li>
-            <li className="nav-item">
+            <li className="nav-item text-uppercase">
               <ExactNavLink
                 to="/about"
               >
                 About
               </ExactNavLink>
-            </li><li className="nav-item">
+            </li><li className="nav-item text-uppercase">
               <ExactNavLink
                 to="/portfolio"
               >
                 Portfolio
               </ExactNavLink>
-            </li><li className="nav-item">
+            </li><li className="nav-item text-uppercase">
               <ExactNavLink
                 to="/contact"
               >
