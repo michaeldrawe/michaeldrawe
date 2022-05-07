@@ -32,17 +32,17 @@ const IndexPage = () => (
     </div>
     <div className="row">
       <div class="d-grid gap-4 d-xl-flex justify-content-xl-center">
-      <div className="col-xl-3"></div>
-      <div className="col-xl-6">
+      <div className="col-xl-6"></div>
+      <div className="col-xl-5">
         {" "}
         <button type="button" class="btn btn-primary btn-lg">
-          Check out my portfolio
+          Check out My portfolio
         </button>
         <button type="button" class="btn btn-outline-secondary btn-lg">
           Contact Me
         </button>
       </div>
-      </div>{" "}<div className="col-xl-3"></div>
+      </div>{" "}<div className="col-xl-1"></div>
     </div>
   </Layout>
 )
