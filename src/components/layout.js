@@ -22,7 +22,14 @@ const Layout = ({ children }) => {
       <main className="site">
         <main className="site-content">{children}</main>
       </main>
-      <footer className="footer" >Copyright 2022 Michael Drawe</footer>
+      <footer className="footer" >
+      <div className="row ">
+      <div className="col-md-12  text-center text-muted">
+              <p>2022 © Michael Drawe </p>
+            </div>
+          </div>
+         
+          </footer>
     </div>
   )
 }
