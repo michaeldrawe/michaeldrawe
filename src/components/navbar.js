@@ -48,6 +48,20 @@ const Navbar = ({ siteTitle }) => {
                 Contact
               </ExactNavLink>
             </li>
+            <li className="nav-item text-uppercase">
+              <ExactNavLink
+                to="/contact"
+              >
+                {""}
+              </ExactNavLink>
+            </li>
+            <li className="nav-item text-uppercase">
+              <ExactNavLink
+                to="/contact"
+              >
+                Contact
+              </ExactNavLink>
+            </li>
           </ul>
         </div>
       </div>
