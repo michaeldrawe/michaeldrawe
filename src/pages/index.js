@@ -11,12 +11,12 @@ const IndexPage = () => (
       <div className="col-lg-1"></div>
       <div class="col-lg-5 col-md-12 col-sm-12">
         <StaticImage
-          src="../images/gatsby-astronaut.png"
+          src="../images/michael.png"
           layout="fixed"
           height={600}
           quality={100}
           formats={["AUTO", "WEBP"]}
-          alt="A Gatsby astronaut"
+          alt="Photo of Michael Drawe"
           className="d-block mx-lg-auto img-fluid"
         />
       </div>
@@ -32,19 +32,17 @@ const IndexPage = () => (
     </div>
     <div className="row">
       <div class="d-grid gap-4 d-xl-flex justify-content-xl-center">
-        <div className="col-xl-3">
-          {" "}
-          <button
-            type="button"
-            className="btn btn-outline-secondary btn-lg px-4"
-          >
-            Contact Me
-          </button>{" "}
-          <button type="button" className="btn btn-primary btn-lg px-4 me-md-2">
-            Check out my portfolio
-          </button>
-        </div>
-      </div>{" "}
+      <div className="col-xl-3"></div>
+      <div className="col-xl-6">
+        {" "}
+        <button type="button" class="btn btn-primary btn-lg">
+          Check out my portfolio
+        </button>
+        <button type="button" class="btn btn-outline-secondary btn-lg">
+          Contact Me
+        </button>
+      </div>
+      </div>{" "}<div className="col-xl-3"></div>
     </div>
   </Layout>
 )

@@ -14,7 +14,7 @@ const Navbar = ({ siteTitle }) => {
   return (
     <nav className="navbar navbar-expand-md navbar-light">
       <div className="container-fluid">
-        <Link to="/" className="navbar-brand" href="#">{siteTitle}</Link>
+        <Link to="/" className="navbar-brand nav-item text-uppercase" href="#">{siteTitle}</Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navbar"
                 aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
