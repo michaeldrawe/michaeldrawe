@@ -22,7 +22,7 @@ const Navbar = ({ siteTitle }) => {
 
         <div className="collapse navbar-collapse" id="main-navbar">
           <ul className="navbar-nav ms-auto mb-2 mb-md-0">
-            <li className="nav-item text-uppercase">
+            <li className="nav-item text-uppercase p-2">
               <ExactNavLink
                 to="/"
               >
@@ -48,7 +48,7 @@ const Navbar = ({ siteTitle }) => {
                 Contact
               </ExactNavLink>
             </li>
-            <li className="nav-item text-uppercase">
+            <li className="nav-item text-uppercase p-4">
               <ExactNavLink
                 to="/contact"
               >
@@ -59,11 +59,11 @@ const Navbar = ({ siteTitle }) => {
               <ExactNavLink
                 to="/contact"
               >
-                <a href="https://www.github.com/michaeldrawe" className="p-3">
+                <a href="https://www.github.com/michaeldrawe" className="p-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
+                    width="32"
+                    height="32"
                     fill="#4078c0"
                     class="bi bi-github"
                     viewBox="0 0 16 16"
@@ -72,11 +72,11 @@ const Navbar = ({ siteTitle }) => {
                   </svg>
                 </a>
 
-                <a href="https://www.twitter.com/michaeldrawe" className="p-3">
+                <a href="https://www.twitter.com/michaeldrawe" className="p-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
+                    width="32"
+                    height="32"
                     fill="#00acee"
                     class="bi bi-twitter"
                     viewBox="0 0 16 16"
@@ -85,11 +85,11 @@ const Navbar = ({ siteTitle }) => {
                   </svg>
                 </a>
 
-                <a href="https://www.youtube.com/michaeldrawe" className="p-3">
+                <a href="https://www.youtube.com/michaeldrawe" className="p-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
+                    width="32"
+                    height="32"
                     fill="#FF0000"
                     class="bi bi-youtube"
                     viewBox="0 0 16 16"
@@ -100,12 +100,12 @@ const Navbar = ({ siteTitle }) => {
 
                 <a
                   href="https://www.linkedin.com/in/michaeldrawe"
-                  className="p-3"
+                  className="p-2"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
+                    width="32"
+                    height="32"
                     fill="#0e76a8"
                     class="bi bi-linkedin"
                     viewBox="0 0 16 16"
