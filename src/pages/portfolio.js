@@ -8,9 +8,9 @@ const PortfolioPage = () => (
   <Layout>
     <Seo title='About Gatsby Bootsrap 5 starter' />
     <div className='container  my-5'>
-      <div className='container'>
-        <h1>Portfolio Projects</h1>
-      </div>
+      
+        <h1 className="display-1 text-muted">Portfolio Projects</h1>
+      
     </div>
   </Layout>
 )

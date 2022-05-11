@@ -7,12 +7,10 @@ import Seo from "../components/seo"
 const AboutPage = () => (
   <Layout>
     <Seo title="About Gatsby Bootsrap 5 starter" />
-    <div className="container  my-5">
-
-      <div className="container">
-        <h1 >About Me</h1>
-        </div>
+    <div className="container my-5">
       
+        <h1 className="display-1 text-muted">About Me</h1>
+        
     </div>
   </Layout>
 )

@@ -12,9 +12,9 @@ const ExactNavLink = props => <Link getProps={isActive} {...props} />
 
 const Navbar = ({ siteTitle }) => {
   return (
-    <nav className='navbar navbar-expand-md navbar-light'>
+    <nav className='navbar navbar-expand-md navbar-dark'>
       <div className='container-fluid'>
-        <Link to='/' className='navbar-brand nav-item text-uppercase' href='#'>
+        <Link to='/' className='navbar-brand  text-uppercase' href='#'>
           {siteTitle}
         </Link>
         <button
@@ -47,13 +47,13 @@ const Navbar = ({ siteTitle }) => {
               <ExactNavLink to='/contact'>{''}</ExactNavLink>
             </li>
             <li className='nav-item text-uppercase p-2'>
-              <ExactNavLink>
+              <ExactNavLink to='#'>
                 <a href='https://www.github.com/michaeldrawe' className='p-2'>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
                     width='20'
                     height='20'
-                    fill='#565399'
+                    fill='#3f668d'
                     class='bi bi-github '
                     viewBox='0 0 16 16'
                   >
@@ -66,7 +66,7 @@ const Navbar = ({ siteTitle }) => {
                     xmlns='http://www.w3.org/2000/svg'
                     width='20'
                     height='20'
-                    fill='#565399'
+                    fill='#3f668d'
                     class='bi bi-twitter'
                     viewBox='0 0 16 16'
                   >
@@ -79,7 +79,7 @@ const Navbar = ({ siteTitle }) => {
                     xmlns='http://www.w3.org/2000/svg'
                     width='20'
                     height='20'
-                    fill='#565399'
+                    fill='#3f668d'
                     class='bi bi-youtube'
                     viewBox='0 0 16 16'
                   >
@@ -95,7 +95,7 @@ const Navbar = ({ siteTitle }) => {
                     xmlns='http://www.w3.org/2000/svg'
                     width='20'
                     height='20'
-                    fill='#565399'
+                    fill='#3f668d'
                     class='bi bi-linkedin'
                     viewBox='0 0 16 16'
                   >

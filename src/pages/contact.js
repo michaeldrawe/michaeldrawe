@@ -8,9 +8,9 @@ const ContactPage = () => (
   <Layout>
     <Seo title='About Gatsby Bootsrap 5 starter' />
     <div className='container  my-5'>
-      <div className='container'>
-        <h1>Contact Me</h1>
-      </div>
+      
+        <h1 className="display-1 text-muted">Contact Me</h1>
+      
     </div>
   </Layout>
 )
