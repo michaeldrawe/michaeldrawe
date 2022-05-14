@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Michael Drawe`,
-    description: `A simple bootstrap 5 and Sass starter for Gatsby. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@r-ichard`
+    description: `My web development site, a place to share my projects and learn new things.`,
+    author: `@michaeldrawe`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -36,6 +36,7 @@ module.exports = {
         icon: `src/images/gatsby-icon.png` // This path is relative to the root of the site.
       }
     },
-    `gatsby-plugin-gatsby-cloud`
+    `gatsby-plugin-gatsby-cloud`,
+    
   ]
 }
