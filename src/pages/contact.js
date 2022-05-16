@@ -6,8 +6,8 @@ import Seo from '../components/seo'
 const ContactPage = () => (
   <Layout>
     <Seo title='Contact Page' />
-    <div className='container  my-5'>
-      <h3 className='display-1 text-muted'>Contact Me</h3>
+    <div className='container my-3'>
+      <h3 className='display-3 text-muted'>Contact Me</h3>
       <div className='row justify-content-center'>
         <div className='col-xl-4 col-md-12 p-3 bg-white w-75'>
           <form

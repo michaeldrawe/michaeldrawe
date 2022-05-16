@@ -12,7 +12,7 @@ const ExactNavLink = props => <Link getProps={isActive} {...props} />
 
 const Navbar = ({ siteTitle }) => {
   return (
-    <nav className='navbar navbar-expand-sm navbar-dark p-3'>
+    <nav className='navbar navbar-expand-sm navbar-dark'>
       <div className='container-fluid'>
         <Link to='/' className='navbar-brand  text-uppercase' href='#'>
           {siteTitle}

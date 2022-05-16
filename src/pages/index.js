@@ -7,7 +7,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 const IndexPage = () => (
   <Layout>
     <Seo title='Home' />
-    <div className='container col-xxl-8 px-4 py-5'>
+    <div className='container col-xxl-8 px-4 my-3'>
       <div className='row flex-lg-row-reverse align-items-center g-5 py-5'>
         <div className='col-10 col-sm-8 col-lg-6'>
           <StaticImage
@@ -24,7 +24,7 @@ const IndexPage = () => (
           <h1 className='display-5 fw-bold lh-1 mb-3 text-muted'>
             Hello and welcome!
           </h1>
-          <p className='display-2 fw-bold text-muted '>I'm Michael Drawe</p>
+          <p className='display-3 fw-bold text-muted '>I'm Michael Drawe</p>
           <p className='display-6 text-muted '>Front-End Web Developer</p>
           <p className='display-6 text-muted text-align-center'>and </p>
           <p className='display-6 text-muted '> Always Curious Human</p>

@@ -7,8 +7,8 @@ import Seo from '../components/seo'
 const AboutPage = () => (
   <Layout>
     <Seo title='About Page' />
-    <div className='container my-5'>
-      <h1 className='display-1 text-muted'>About Me</h1>
+    <div className='container my-3'>
+      <h1 className='display-3 text-muted'>About Me</h1>
     </div>
   </Layout>
 )
