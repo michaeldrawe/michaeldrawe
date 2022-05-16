@@ -12,7 +12,7 @@ const ExactNavLink = props => <Link getProps={isActive} {...props} />
 
 const Navbar = ({ siteTitle }) => {
   return (
-    <nav className='navbar navbar-expand-md navbar-dark'>
+    <nav className='navbar navbar-expand-sm navbar-dark p-3'>
       <div className='container-fluid'>
         <Link to='/' className='navbar-brand  text-uppercase' href='#'>
           {siteTitle}
@@ -53,7 +53,7 @@ const Navbar = ({ siteTitle }) => {
                     xmlns='http://www.w3.org/2000/svg'
                     width='20'
                     height='20'
-                    fill='#3f668d'
+                    fill='#4fa2f5'
                     class='bi bi-github '
                     viewBox='0 0 16 16'
                   >
@@ -66,7 +66,7 @@ const Navbar = ({ siteTitle }) => {
                     xmlns='http://www.w3.org/2000/svg'
                     width='20'
                     height='20'
-                    fill='#3f668d'
+                    fill='#4fa2f5'
                     class='bi bi-twitter'
                     viewBox='0 0 16 16'
                   >
@@ -79,7 +79,7 @@ const Navbar = ({ siteTitle }) => {
                     xmlns='http://www.w3.org/2000/svg'
                     width='20'
                     height='20'
-                    fill='#3f668d'
+                    fill='#4fa2f5'
                     class='bi bi-youtube'
                     viewBox='0 0 16 16'
                   >
@@ -95,7 +95,7 @@ const Navbar = ({ siteTitle }) => {
                     xmlns='http://www.w3.org/2000/svg'
                     width='20'
                     height='20'
-                    fill='#3f668d'
+                    fill='#4fa2f5'
                     class='bi bi-linkedin'
                     viewBox='0 0 16 16'
                   >
