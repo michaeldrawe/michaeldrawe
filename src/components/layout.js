@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
       <footer className='footer'>
         <div className='row '>
           <div className='col-md-12  text-center text-muted'>
-            <p>2022 © Michael Drawe </p>
+            <p>© 2022 Michael Drawe </p>
           </div>
         </div>
       </footer>
