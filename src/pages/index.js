@@ -18,18 +18,22 @@ const IndexPage = () => (
           <p className='display-6 text-muted text-align-center'>and </p>
           <p className='display-6 text-muted '> Always Curious Human</p>
           <div className='d-grid gap-2 d-md-flex justify-content-md-center'>
-            <button
-              type='button'
-              className='btn btn-outline-primary text-primary btn-lg me-sm-3 fw-bold'
+            <a
+              href='/portfolio'
+              class='btn btn-outline-primary btn-lg active'
+              role='button'
+              aria-pressed='true'
             >
               Check out My portfolio
-            </button>
-            <button
-              type='button'
-              className='btn btn-outline-secondary text-secondary btn-lg px-4'
+            </a>
+            <a
+              href='/contact'
+              class='btn btn-outline-secondary btn-lg active '
+              role='button'
+              aria-pressed='true'
             >
               Contact Me
-            </button>
+            </a>
           </div>
         </div>
         <div className='col-12 col-xl-6 mx-auto'>
