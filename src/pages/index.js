@@ -7,20 +7,9 @@ import { StaticImage } from 'gatsby-plugin-image'
 const IndexPage = () => (
   <Layout>
     <Seo title='Home' />
-    <div className='container col-xxl-8 px-4 my-3'>
-      <div className='row flex-lg-row-reverse align-items-center g-5 py-5'>
-        <div className='col-10 col-sm-8 col-lg-6'>
-          <StaticImage
-            src='../images/michael.png'
-            layout='fixed'
-            height={600}
-            quality={100}
-            formats={['AUTO', 'WEBP']}
-            alt='Photo of Michael Drawe'
-            className='d-block mx-lg-auto img-fluid'
-          />
-        </div>
-        <div className='col-lg-6 text-center'>
+    <div className='container col-xxl-8 my-3'>
+      <div className='row flex-lg-row align-items-center g-5 py-5'>
+        <div className='col col-xl-6 text-center'>
           <h1 className='display-5 fw-bold lh-1 mb-3 text-muted'>
             Hello and welcome!
           </h1>
@@ -31,7 +20,7 @@ const IndexPage = () => (
           <div className='d-grid gap-2 d-md-flex justify-content-md-center'>
             <button
               type='button'
-              className='btn btn-outline-primary text-primary btn-lg px-4 me-sm-3 fw-bold'
+              className='btn btn-outline-primary text-primary btn-lg me-sm-3 fw-bold'
             >
               Check out My portfolio
             </button>
@@ -42,6 +31,17 @@ const IndexPage = () => (
               Contact Me
             </button>
           </div>
+        </div>
+        <div className='col-12 col-xl-6 mx-auto'>
+          <StaticImage
+            src='../images/michael.png'
+            layout='fixed'
+            height={600}
+            quality={100}
+            formats={['AUTO', 'WEBP']}
+            alt='Photo of Michael Drawe'
+            className='d-block mx-lg-auto img-fluid '
+          />
         </div>
       </div>
     </div>

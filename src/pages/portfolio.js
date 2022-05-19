@@ -9,19 +9,20 @@ const PortfolioPage = () => (
     <div className='container my-3'>
       <h1 className='display-3 text-muted'>Portfolio Projects</h1>
       <div className='row row-lg-3 align-items-stretch g4 py-5'>
-        <div className='col-sm-12 col-md-6 col-lg-4 col-xl-3 pt-3'>
+        <div className='col-sm-12 col-md-6 col-lg-4 col-xl-4 pt-3'>
           <div className='card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg'>
             <StaticImage
-              src='../images/fuu-j-r2nJPbEYuSQ-unsplash.jpg'
-              width={300}
-              height={300}
+              src='../images/Screenshot-Website-Project-Image.png'
               quality={100}
+              aspectRatio={16 / 9}
+              layout='constrained'
               formats={['AUTO', 'WEBP']}
               alt='A Gatsby astronaut'
               className='card-img'
+              fit='cover'
             />
             <div class='card-body'>
-              <h5 class='card-title display-6'>michaeldrawe.dev</h5>
+              <h5 class='card-title display-6'>This website</h5>
               <p class='card-text'>
                 <ul>
                   <li>React.js</li>
@@ -47,21 +48,19 @@ const PortfolioPage = () => (
                   <a href='#'> Code</a>
                   <a href='#'> </a>
                 </div>
-                <div className='col'>
-                  <a href='#'>
-                    {' '}
-                    <svg
-                      xmlns='http://www.w3.org/2000/svg'
-                      width='16'
-                      height='16'
-                      fill='currentColor'
-                      class='bi bi-play-fill'
-                      viewBox='0 0 16 16'
-                    >
-                      <path d='m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z' />
-                    </svg>{' '}
-                    App
-                  </a>
+                <div className='col '>
+                  {' '}
+                  <svg
+                    xmlns='http://www.w3.org/2000/svg'
+                    width='16'
+                    height='16'
+                    fill='currentColor'
+                    class='bi bi-play-fill '
+                    viewBox='0 0 16 16'
+                  >
+                    <path d='m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z' />
+                  </svg>{' '}
+                  App
                 </div>
               </div>
             </div>
