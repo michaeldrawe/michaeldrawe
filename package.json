@@ -1,9 +1,9 @@
 {
-  "name": "@r-ichard/gatsby-starter-bootstrap-5",
+  "name": "@md/bootstrap5-gatsby",
   "private": false,
-  "description": "A simple starter to get up and developing quickly with Gatsby 4 and Bootstrap 5",
+  "description": "Web Development website - made with Gatsby 4 and Bootstrap 5",
   "version": "1.0.0",
-  "author": "Richard Raduly <richard@raduly.fr>",
+  "author": "Michael Drawe <michaeldrawe@gmail.com>",
   "dependencies": {
     "@fontsource/architects-daughter": "^4.5.7",
     "@fontsource/open-sans": "^4.5.8",

@@ -12,9 +12,9 @@ const ExactNavLink = props => <Link getProps={isActive} {...props} />
 
 const Navbar = ({ siteTitle }) => {
   return (
-    <nav className='navbar navbar-expand-sm navbar-dark'>
+    <nav className='navbar navbar-expand-lg navbar-dark p-3'>
       <div className='container-fluid'>
-        <Link to='/' className='navbar-brand  text-uppercase' href='#'>
+        <Link to='/' className='navbar-brand  text-uppercase ' href='#'>
           {siteTitle}
         </Link>
         <button
@@ -40,12 +40,10 @@ const Navbar = ({ siteTitle }) => {
             <li className='nav-item text-uppercase p-2'>
               <ExactNavLink to='/portfolio'>Portfolio</ExactNavLink>
             </li>
-            <li className='nav-item text-uppercase p-2'>
+            <li className='nav-item text-uppercase p-2 mr-3'>
               <ExactNavLink to='/contact'>Contact</ExactNavLink>
             </li>
-            <li className='nav-item text-uppercase p-2'>
-              <ExactNavLink to='/contact'>{''}</ExactNavLink>
-            </li>
+
             <li className='nav-item text-uppercase p-2'>
               <ExactNavLink to='#'>
                 <a href='https://www.github.com/michaeldrawe' className='p-2'>
