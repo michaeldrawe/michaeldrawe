@@ -51,11 +51,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/r-ichard/gatsby-starter-bootstrap-5.git"
+    "url": "git+https://github.com/michaeldrawe/michaeldrawe.git"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/michaeldrawe/michaeldrawe/issues"
   },
-  "homepage": "https://github.com/r-ichard/gatsby-starter-bootstrap-5#readme",
+  "homepage": "https://github.com/michaeldrawe/michaeldrawe/blob/main/README.md",
   "main": "gatsby-browser.js"
 }
