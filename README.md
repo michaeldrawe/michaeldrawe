@@ -1,48 +1,43 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-   Gatsby Bootstrap 5 starter
-</h1>
+- 👋 Hi, I’m @michaeldrawe
 
+![](https://readme-typing-svg.herokuapp.com?font=Montserrat&color=49D3DF&lines=I'm+a+Frontend+Web+Developer;I'm+a+UI%2FUX+Designer;I'm+a+Mobile+Developer;)
 
-Minimal bootstrap 5 and Gatsby configuration with SCSS support. 
+# Come on in and grab a chair!
 
-Demo here : https://gatsbystarterbootstrap5.gatsbyjs.io/
+## :crystal_ball: My Github Status :crystal_ball:
 
-## 📋 Available options
+![](https://github-readme-stats.vercel.app/api?username=michaeldrawe&show_icons=true&bg_color=45,ae11df,00daa3&title_color=fff&text_color=fff)
 
-- You can theme bootstrap via `src/components/layout.scss`
+Can you blame me? I LOVE ALL TECH. I love building full-stack applications and sometimes I play around with Android. I love to share my resources and tips with the dev community.
 
-## 🚀 How to install
+- 🔭 I’m currently working on my MERN Stack
+- 🌱 Learning Backend and APIs
+- 📫 You can reach me [michaeldrawe@gmail.com](mailto:michaeldrawe@gmail.com)
+- :link: Connect with me on [LinkedIn](https://www.linkedin.com/in/michaeldrawe)
+- [Twitter @michaeldrawe](https://twitter.com/michaeldrawe) Open to all DMs on Twitter.
 
-Use the Gatsby CLI to create a new site. 
+## Find me around the web 🌍
 
-```shell
-# create a new Gatsby site using the default starter
-gatsby new gatsby-starter-bootstrap-5 https://github.com/r-ichard/gatsby-starter-bootstrap-5
-```
+- [LinkedIn](https://www.linkedin.com/in/michaeldrawe)
+- [Twitter](https://twitter.com/michaeldrawe)
 
+## My skills 🚀
 
-## ✏️ How to develop locally
-
-1.  Navigate into your new site’s directory and start it up.
-
-    ```shell
-    cd gatsby-starter-bootstrap-5/
-    gatsby develop
-    ```
-
-1.  **Open the source code and start editing!**
-
-    Your site is now running at `http://localhost:8000`!
-
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql)._
-
-    Open the `gatsby-starter-bootstrap-5` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
-
-## 💡 How to contribute 
-
-Any feedback is welcome and helpful.
+![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![](https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white)
+![](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+![](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+![](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
+![](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
+![](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+![](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![](https://img.shields.io/badge/figma-0AC97F?style=for-the-badge&logo=figma&logoColor=white)
+​
