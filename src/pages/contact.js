@@ -9,7 +9,7 @@ const ContactPage = () => (
     <div className='container my-3'>
       <h3 className='display-3 text-muted'>Contact Me</h3>
       <div className='row justify-content-center'>
-        <div className='col-xl-4 col-md-12 p-3 bg-white w-75'>
+        <div className='col-xl-4 col-md-12 p-3 bg-white w-100'>
           <form
             method='post'
             action='https://getform.io/f/f9f1426f-d534-46da-93b5-ed96a2b124f0'
@@ -40,7 +40,6 @@ const ContactPage = () => (
                 name='message'
                 id='exampleFormControlTextarea1'
                 placeholder='Type your message here'
-               
               ></textarea>
               <label for='floatingTextarea'>Comments</label>
             </div>
@@ -48,7 +47,9 @@ const ContactPage = () => (
               <button className='btn-primary p-3' type='submit'>
                 Send
               </button>
-              <button  className='btn-warning p-3 ' type='reset'>Clear Form</button>
+              <button className='btn-warning p-3 ' type='reset'>
+                Clear
+              </button>
             </div>
           </form>
         </div>
